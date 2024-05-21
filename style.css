@@ -1,0 +1,75 @@
+body {
+  background-color: #ffe5ea;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: #ff1a42;
+  font-size: 75px;
+  margin: 20px;
+  text-decoration: underline;
+}
+#input {
+  height: 50px;
+  width: 80%;
+  font-size: 30px;
+  border-radius: 20px;
+}
+#Add-btn {
+  margin-left: 10px;
+  height: 60px;
+  width: 10%;
+  border-radius: 20px;
+  font-size: large;
+  font-weight: bolder;
+}
+#Add-btn:hover{
+  background-color: rgb(40, 3, 246);
+  color: aliceblue;
+  cursor: pointer;
+}
+.input-box {
+  margin: 10px 0 50px 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#tasks li {
+  padding: 10px;
+  width: 90vmax;
+  list-style: none;
+  font-size: 30px;
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+li:hover{
+  color: white;
+  cursor: pointer;
+}
+#tasks span {
+  width: 20vmax;
+  display: flex;
+  justify-content: space-evenly;
+}
+#close-btn:hover {
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+}
+#edit-btn:hover{
+  background-color: #00ff33;
+    color: white;
+    cursor: pointer;
+}
+button{
+  border-radius: 5px;
+  font-weight: 900;
+}
+p{
+  margin: 0;
+}
